@@ -11,7 +11,7 @@ root=Tk()
 root.title("My PingPong Ball")
 root.resizable(0,0)
 canvas=Canvas(root,width=900, height=600)
-image=ImageTk.PhotoImage(Image.open("E:\\AAllAboutStudy\\MY3.2\\MyPingPongBall\\bg5.png"))
+image=ImageTk.PhotoImage(Image.open("E:\\AAllAboutStudy\\MY3.2\\MyPingPongBall\\firstpagebg.png"))
 
 canvas.create_image(0,0,anchor=NW,image=image)
 canvas.pack()
